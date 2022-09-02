@@ -1,0 +1,23 @@
+citHeader("To cite openWAR in publications use:")
+
+
+citEntry(entry = "Article",
+   title       = "{openWAR}: An Open Source System for Overall Player Performance in Major League Baseball",
+  author       = personList(as.person("Benjamin S. Baumer"), as.person("Shane T. Jensen"), 
+                   as.person("Gregory J. Matthews")),
+  journal      = "Journal of Quantitative Analysis in Sports",
+  year         = "2015",
+  volume       = "11",
+  number       = "2",
+  pages        = "69--84",
+  doi          = "10.1515/jqas-2014-0098",
+  url          = "http://arxiv.org/abs/1312.7158",
+  textVersion  =
+  paste("Benjamin S. Baumer, Shane T. Jensen, Gregory J. Matthews (2015).",
+        "openWAR: An Open Source System for Overall Player Performance in Major League Baseball.",
+        "Journal of Quantitative Analysis in Sports, 11(2):69-84.",
+        "URL http://arxiv.org/abs/1312.7158.")
+)
+
+citFooter("For the latest version see <http://github.com/beanumber/openWAR/>")
+
